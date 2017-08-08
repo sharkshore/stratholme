@@ -10,9 +10,9 @@ function RouterConfig({ history }) {
   return (
     <Router history={history}>
       <Route path="/" component={IndexPage} >
-
+        <Route path="example" component={Example} />
       </Route>
-      <Route path="example" component={Example} />
+      <Route path="login" component={Example} />
 
     </Router>
   );

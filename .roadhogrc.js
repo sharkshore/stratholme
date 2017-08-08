@@ -45,7 +45,7 @@ var config = {
       "pathRewrite": {"^/openapi": "/openapi"}
     }
   },
-  // "theme": "./theme.config.js",
+  "theme": "./theme.config.js",
 
 };
 module.exports = config;

@@ -3,8 +3,9 @@
 # dependencies
 /node_modules
 
+/.idea
+
 # production
-/dist
 
 # misc
 .DS_Store
